@@ -178,6 +178,7 @@ nav ul{
     .girl-image{
         width: 388px;
         height: 339px;
+        padding-left: 0;
     }
     .content-wrapper{
         margin-top: 10px;
@@ -225,10 +226,14 @@ nav ul{
     .details-box{
         flex-direction: column-reverse;
         padding-left: 30px;
+        gap: 20px;
     }
 
     .details-section{
         gap: 80px;
+    }
+    .details-wrapper{
+        padding: 20px;
     }
     
 }
