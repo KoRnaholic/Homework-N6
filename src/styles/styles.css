@@ -33,7 +33,6 @@ header nav{
     display: flex;
     justify-content: center;
     gap: 200px;
-    /* padding: 15px; */
     align-items: center;
 }
 
@@ -41,7 +40,6 @@ nav ul{
     display: flex;
     gap: 36px;
     list-style: none;
-    
 }
 
 .nav-list{
@@ -53,7 +51,6 @@ nav ul{
     font-weight: 900;
     font-size: 20px;
     cursor: pointer;
-
 }
 
 .logo-nav{
@@ -168,12 +165,15 @@ nav ul{
     /* background: linear-gradient(to bottom, white 50%, #9E99FF 50%); */
 }
 
-@media (max-width: 450px){
+@media (max-width: 550px){
     .text-86{
         font-size: 46px;
     }
     .text-60{
         font-size: 34px;
+    }
+    .text-20{
+        font-size: 18px;
     }
     .girl-image{
         width: 388px;
